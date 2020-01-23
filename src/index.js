@@ -1,1 +1,6 @@
-export { default as default } from './Component.svelte';
+export { default as ChevronDoubleLeft } from "./ChevronDoubleLeft.svelte"
+export { default as Close } from "./Close.svelte"
+export { default as Fingerprint } from "./Fingerprint.svelte"
+export { default as Paw } from "./Paw.svelte"
+export { default as Radio } from "./Radio.svelte"
+export { default as Refresh } from "./Refresh.svelte"
