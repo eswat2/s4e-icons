@@ -1,5 +1,9 @@
 {
   "name": "s4e-icons",
+  "description": "prototype - collection of SVG icon components for Svelte",
+  "author": "eswat2",
+  "license": "MIT",
+  "repository": "eswat2/s4e-icons",
   "svelte": "src/index.js",
   "module": "dist/index.mjs",
   "main": "dist/index.js",
