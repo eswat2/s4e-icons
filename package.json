@@ -9,13 +9,14 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "rollup -c",
-    "prepublishOnly": "yarn build"
+    "prepublishOnly": "yarn build",
+    "deploy": "yarn publish"
   },
   "devDependencies": {
     "@rollup/plugin-node-resolve": "7.0.0",
     "rollup": "1.29.1",
     "rollup-plugin-svelte": "5.1.1",
-    "svelte": "3.17.2"
+    "svelte": "3.17.3"
   },
   "keywords": [
     "svelte"
