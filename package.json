@@ -10,13 +10,22 @@
   "scripts": {
     "build": "rollup -c",
     "prepublishOnly": "yarn build",
-    "deploy": "yarn publish"
+    "deploy": "yarn publish",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "devDependencies": {
+    "@babel/core": "7.8.3",
     "@rollup/plugin-node-resolve": "7.0.0",
+    "@storybook/addon-actions": "5.3.9",
+    "@storybook/addon-links": "5.3.9",
+    "@storybook/addons": "5.3.9",
+    "@storybook/svelte": "5.3.9",
+    "babel-loader": "8.0.6",
     "rollup": "1.29.1",
     "rollup-plugin-svelte": "5.1.1",
-    "svelte": "3.17.3"
+    "svelte": "3.17.3",
+    "svelte-loader": "2.13.6"
   },
   "keywords": [
     "svelte"
@@ -25,5 +34,6 @@
     "src",
     "dist"
   ],
-  "version": "0.0.6"
+  "version": "0.0.6",
+  "dependencies": {}
 }
