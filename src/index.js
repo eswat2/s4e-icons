@@ -1,3 +1,4 @@
+export { default as Asterisk } from "./Asterisk.svelte"
 export { default as ChevronDoubleLeft } from "./ChevronDoubleLeft.svelte"
 export { default as Close } from "./Close.svelte"
 export { default as Fingerprint } from "./Fingerprint.svelte"
