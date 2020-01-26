@@ -2,12 +2,18 @@
 
 A simple component library for Svelte which provides a small number of simple Icon components based on SVG's from Material Design Icons:
 
+- Asterisk
 - ChevronDoubleLeft
 - Close
 - Fingerprint
+- Git
+- OnePassword
 - Paw
+- PuzzelOutline
 - Radio - _this has a selected property_
+- Radio2 - _this has a selected property_
 - Refresh
+- Spider
 
 All of these are purely for exploratory work with respect to learning how Svelte components can be packaged and shared.
 
