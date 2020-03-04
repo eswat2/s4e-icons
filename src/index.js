@@ -1,5 +1,7 @@
 export { default as Alien } from "./Alien.svelte"
 export { default as Asterisk } from "./Asterisk.svelte"
+export { default as Barcode } from "./Barcode.svelte"
+export { default as BarcodeScan } from "./Barcode.svelte"
 export { default as Check } from "./Check.svelte"
 export { default as ChevronDoubleLeft } from "./ChevronDoubleLeft.svelte"
 export { default as Close } from "./Close.svelte"
