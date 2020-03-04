@@ -5,7 +5,7 @@
   // language - current active spelling language
   "language": "en",
   // words - list of words to be always considered correct
-  "words": ["clrs", "eswat", "predeploy"],
+  "words": ["barcode", "clrs", "eswat", "predeploy"],
   "ignorePaths": [
     "public/build/**",
     "node_modules/**",
