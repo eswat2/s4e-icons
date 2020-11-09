@@ -78,9 +78,9 @@ has@^1.0.3:
     function-bind "^1.1.1"
 
 is-core-module@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/is-core-module/-/is-core-module-2.0.0.tgz#58531b70aed1db7c0e8d4eb1a0a2d1ddd64bd12d"
-  integrity sha512-jq1AH6C8MuteOoBPwkxHafmByhL9j5q4OaPGdbuD+ZtQJVzH+i6E3BJDQcBA09k57i2Hh2yQbEG8yObZ0jdlWw==
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/is-core-module/-/is-core-module-2.1.0.tgz#a4cc031d9b1aca63eecbd18a650e13cb4eeab946"
+  integrity sha512-YcV7BgVMRFRua2FqQzKtTDMz8iCuLEyGKjr70q8Zm1yy2qKcurbFEd79PAdHV77oL3NrAaOVQIbMmiHQCHB7ZA==
   dependencies:
     has "^1.0.3"
 
@@ -117,10 +117,10 @@ resolve@^1.17.0:
     is-core-module "^2.0.0"
     path-parse "^1.0.6"
 
-rollup-plugin-svelte@6.1.0:
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/rollup-plugin-svelte/-/rollup-plugin-svelte-6.1.0.tgz#bba94a37796fac1f73528161e84cc4976df431e1"
-  integrity sha512-TX1nIZSD6ePiSdYIEfpkvR7lLnP1nsSycCVz+vXbm5d5kIe5WMldo6fwcL/T8KPjc42XDgLaRcS74BorpQvpiA==
+rollup-plugin-svelte@6.1.1:
+  version "6.1.1"
+  resolved "https://registry.yarnpkg.com/rollup-plugin-svelte/-/rollup-plugin-svelte-6.1.1.tgz#66362cf0500fb7a848283ebcf19d289a60ef0871"
+  integrity sha512-ijnm0pH1ScrY4uxwaNXBpNVejVzpL2769hIEbAlnqNUWZrffLspu5/k9/l/Wsj3NrEHLQ6wCKGagVJonyfN7ow==
   dependencies:
     require-relative "^0.8.7"
     rollup-pluginutils "^2.8.2"
@@ -145,7 +145,7 @@ sourcemap-codec@^1.4.8:
   resolved "https://registry.yarnpkg.com/sourcemap-codec/-/sourcemap-codec-1.4.8.tgz#ea804bd94857402e6992d05a38ef1ae35a9ab4c4"
   integrity sha512-9NykojV5Uih4lgo5So5dtw+f0JgJX30KCNI8gwhz2J9A15wD0Ml6tjHKwf6fTSa6fAdVBdZeNOs9eJ71qCk8vA==
 
-svelte@3.29.4:
-  version "3.29.4"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.29.4.tgz#d0f80cb58109ef52963855c23496f7153bb2eb7e"
-  integrity sha512-oW0fGHlyFFMvzRtIvOs84b0fOc0gmZNQcL5Is3hxuTpvaYX3pfd8oHy4KnOvbq4Ca6SG6AHdRMk7OhApTo0NqA==
+svelte@3.29.6:
+  version "3.29.6"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.29.6.tgz#0a9e378c7896cdb0cbd617e793e60543ffc26354"
+  integrity sha512-VIQMHPPEg/d4BQTy+WX1hHi/0EzjwjgjBK+DF0kLFy5hBsDKHQemd7xrCO1Spz57sT0xUb/YgRwFoozQrK0cmQ==
