@@ -10,7 +10,7 @@
   "scripts": {
     "build": "rollup -c",
     "prepublishOnly": "yarn build",
-    "deploy": "yarn publish",
+    "deploy": "yarn publish --patch",
     "cc": "prettier --check 'src/**/*.js'",
     "open": "open https://www.npmjs.com/package/s4e-icons"
   },
