@@ -19,7 +19,7 @@
     "prettier": "2.2.1",
     "rollup": "2.39.1",
     "rollup-plugin-svelte": "7.1.0",
-    "svelte": "3.32.3"
+    "svelte": "3.33.0"
   },
   "keywords": [
     "svelte"
