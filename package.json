@@ -15,9 +15,9 @@
     "open": "open https://www.npmjs.com/package/s4e-icons"
   },
   "devDependencies": {
-    "@rollup/plugin-node-resolve": "13.2.0",
+    "@rollup/plugin-node-resolve": "13.2.1",
     "prettier": "2.6.2",
-    "rollup": "2.70.1",
+    "rollup": "2.70.2",
     "rollup-plugin-svelte": "7.1.0",
     "svelte": "3.47.0"
   },
