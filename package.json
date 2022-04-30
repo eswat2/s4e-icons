@@ -17,9 +17,9 @@
   "devDependencies": {
     "@rollup/plugin-node-resolve": "13.2.1",
     "prettier": "2.6.2",
-    "rollup": "2.70.2",
+    "rollup": "2.71.1",
     "rollup-plugin-svelte": "7.1.0",
-    "svelte": "3.47.0"
+    "svelte": "3.48.0"
   },
   "keywords": [
     "svelte"
