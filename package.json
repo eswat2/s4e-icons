@@ -8,7 +8,7 @@
   "module": "dist/index.mjs",
   "main": "dist/index.js",
   "scripts": {
-    "build": "rollup -c",
+    "build": "rollup -c --bundleConfigAsCjs",
     "prepublishOnly": "yarn build",
     "deploy": "yarn publish --patch",
     "cc": "prettier --check 'src/**/*.js'",
