@@ -107,6 +107,11 @@ prettier@2.8.4:
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.8.4.tgz#34dd2595629bfbb79d344ac4a91ff948694463c3"
   integrity sha512-vIS4Rlc2FNh0BySk3Wkd6xmwxB0FpOndW5fisM5H8hsZSxU2VWVB5CWIkIjWvrHjIhxk2g3bfMKM87zNTrZddw==
 
+resolve.exports@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/resolve.exports/-/resolve.exports-2.0.0.tgz#c1a0028c2d166ec2fbf7d0644584927e76e7400e"
+  integrity sha512-6K/gDlqgQscOlg9fSRpWstA8sYe8rbELsSTNpx+3kTrsVCzvSl0zIvRErM7fdl9ERWDsKnrLnwB+Ne89918XOg==
+
 resolve@^1.22.1:
   version "1.22.1"
   resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.22.1.tgz#27cb2ebb53f91abb49470a928bba7558066ac177"
@@ -116,17 +121,18 @@ resolve@^1.22.1:
     path-parse "^1.0.7"
     supports-preserve-symlinks-flag "^1.0.0"
 
-rollup-plugin-svelte@7.1.2:
-  version "7.1.2"
-  resolved "https://registry.yarnpkg.com/rollup-plugin-svelte/-/rollup-plugin-svelte-7.1.2.tgz#266beab511b00ab1dff7706926c84051a155c8eb"
-  integrity sha512-CfU5C4lhVyN80GqtNod4IvsN1nYrcWS3C/T9+gWF+O31e4QwBPo6ubHlLnuQKYVBzC3qIGdERuyrbrvljLfN/A==
+rollup-plugin-svelte@7.1.3:
+  version "7.1.3"
+  resolved "https://registry.yarnpkg.com/rollup-plugin-svelte/-/rollup-plugin-svelte-7.1.3.tgz#947f67468edb1a87c5a67d5fe6272376092b03f7"
+  integrity sha512-kQiZP++PZOObMEZBQcdFdRj0K5ucL496qiYtwo/toFbd8a/1x1gG2kF5yY+PxxYiXUv4S4OVnCd3T02c74TXWQ==
   dependencies:
     "@rollup/pluginutils" "^4.1.0"
+    resolve.exports "^2.0.0"
 
-rollup@3.15.0:
-  version "3.15.0"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-3.15.0.tgz#6f4105e8c4b8145229657b74ad660b02fbfacc05"
-  integrity sha512-F9hrCAhnp5/zx/7HYmftvsNBkMfLfk/dXUh73hPSM2E3CRgap65orDNJbLetoiUFwSAk6iHPLvBrZ5iHYvzqsg==
+rollup@3.16.0:
+  version "3.16.0"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-3.16.0.tgz#2ca49e0f8015dda814f2cb93015775e58134611b"
+  integrity sha512-9wE1H5N1SJqnROpQanBGJ7lrIitwlUYGj4Va4eyf3+vNhoIHLPLag2/CUGIiq3V9lHOBJB6zTsGsPvc50oeihg==
   optionalDependencies:
     fsevents "~2.3.2"
 
